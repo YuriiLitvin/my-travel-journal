@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.header {
+    background-color: #F55A5A;
+}
+
+.header--logo {
+    height: 24px;
+}
+
+.header--title {
+    color: #ffffff;
+}
+
+.trip-container {
+    display: flex;
+    margin: 20px;
+}
+
+.trip--google-maps {
+    display: flex;
+}
