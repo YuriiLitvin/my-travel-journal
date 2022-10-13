@@ -1,19 +1,19 @@
 import React from "react"
 
-export default function Trip(props) {
+export default function Travel(props) {
     
     return (
-        <div className="trip-container">
-            <img src={props.travel.image} alt="view" />
+        <div className="travel-container">
+            <img className="travel--image" src={props.travel.image} alt="view" />
             <div>
-                <div className="trip--google-maps">
-                    <p>
+                <div className="travel--location">
+                    <p className="travel--location-name">
                         <span>
                             <img src="../images/location-icon.png" />
                         </span>
                         {props.travel.location}
                     </p>
-                    <a href={props.travel.link}>View on Google Maps</a>
+                    <a className="travel--location-link" href={props.travel.link}>View on Google Maps</a>
                 </div>
                 <h1>{props.travel.title}</h1>
                 <p>{props.travel.travelTime}</p>

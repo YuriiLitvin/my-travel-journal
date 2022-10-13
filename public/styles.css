@@ -5,21 +5,41 @@ body {
 
 .header {
     background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+
 }
 
 .header--logo {
     height: 24px;
+    margin: auto 0;  
+    padding: 5px; 
 }
 
 .header--title {
     color: #ffffff;
 }
 
-.trip-container {
+.travel-container {
     display: flex;
     margin: 20px;
 }
 
-.trip--google-maps {
+.travel--location {
     display: flex;
+}
+
+.travel--location-name {
+    margin: 0;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+
+.travel--location-link {
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B; 
 }
