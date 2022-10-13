@@ -5,13 +5,13 @@ import travels from "./data";
 
 export default function App() {
   return (
-    <div>
+    <div className="journal-page">
       <Header />
       {travels.map((travel, index) => {
         return (
-            <Travel 
-                key={index}
-                travel={travel}
+          <Travel 
+            key={index}
+            travel={travel}
                 />
               );
             }

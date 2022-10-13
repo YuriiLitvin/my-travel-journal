@@ -1,6 +1,14 @@
 body {
     margin: 0;
     font-family: "Inter", sans-serif;
+    background-color: #E5E5E5;
+    
+}
+
+.journal-page {
+    max-width: 505px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
 }
 
 .header {
@@ -23,10 +31,23 @@ body {
 .travel-container {
     display: flex;
     margin: 20px;
+    max-width: 470px;
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 20px;
+
+}
+
+.travel--details {
+    margin-left: 20px;
+    padding-top: 20px;
 }
 
 .travel--location {
     display: flex;
+}
+
+.travel--location-icon {
+    margin-right: 4px;
 }
 
 .travel--location-name {
@@ -42,4 +63,26 @@ body {
     line-height: 12px;
     text-decoration-line: underline;
     color: #918E9B; 
+    margin-left: 12px;
+}
+
+.travel--place {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    margin-top: 7px;
+}
+
+.travel--time {
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+.travel--content {
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
 }
